@@ -15,7 +15,7 @@ class Shoe
   
   def brand=(brand)
     @brand = brand
-    @brand.each do |current_shoe|
+    brand.each do |current_shoe|
       if current_shoe
     BRANDS << brand
   end
