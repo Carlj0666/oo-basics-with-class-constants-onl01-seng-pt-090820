@@ -20,5 +20,5 @@ class Shoe
       if current_shoe == BRANDS[current_shoe]
       BRANDS[curent_shoe].delete(current_shoe)
   end
-
+end
 end
